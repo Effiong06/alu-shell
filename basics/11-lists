@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la .; ls -la ..; ls -la /boot
+dirs=(. .. /boot); for dir in "${dirs[@]}"; do ls -la "$dir"; done	
