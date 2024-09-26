@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent permissions chgrp school permissions
+chown vincent:staff permissions
