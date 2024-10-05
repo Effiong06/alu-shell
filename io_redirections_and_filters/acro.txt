@@ -1,0 +1,10 @@
+Ball 
+Orb 
+Meat 
+Bell	 
+Ornament 
+Clap				 
+Leap			 
+Ant				
+Ask 					
+Teach						
