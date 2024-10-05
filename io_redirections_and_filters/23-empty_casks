@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -empty -exec printf "%f\n" {} +
+find . -type f -empty -print -o -type d -empty -print | awk -F/ '{print $NF}'
+

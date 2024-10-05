@@ -1,2 +1,0 @@
-#!/bin/bash
-find . -type f -name "*.gif" -exec sh -c 'printf "%s\t%s\n" "$(stat -c %s "$1")" "${1%.gif}"' _ {} + | sort -k1,1n -k2,2
